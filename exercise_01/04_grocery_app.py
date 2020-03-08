@@ -6,7 +6,7 @@
 # just show “Available” or “Out of stock!” on screen
 
 print("Exercise 01_04: Grocery App")
-input_list = input("Enter your book list, seperating by comma: ")
+input_list = input("Enter your good list, seperating by comma: ")
 book_list = input_list.split(",")
 i = 0
 while i < len(book_list):
